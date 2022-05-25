@@ -1,7 +1,7 @@
 import models.EmailBody
 import service.EmailService
 
-class DummyUserSevice : EmailService {
+class DummyUserService : EmailService {
 
     var lastEmailBody: EmailBody? = null
     override fun send(emailBody: EmailBody?) {
